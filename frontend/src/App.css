@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f3;
+  color: #4b514c;
+}
+
+h1,
+h2,
+h3 {
+  color: #34453a;
+}
+
+button {
+  background-color: #6f8f72;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5d7a60;
+}
+
+/* login page */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app h1 {
+  margin-bottom: 30px;
+}
+
+.login-box {
+  width: 360px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.login-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.login-box input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #d8ddd8;
+  border-radius: 5px;
+}
+
+.login-box button {
+  margin-top: 25px;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+/* dashboard */
+.dashboard {
+  min-height: 100vh;
+  padding: 50px;
+  text-align: center;
+}
+
+.options {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.options button {
+  padding: 15px 25px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+
+/* my identities page */
+.identities {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.identities h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.identities h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+
+/* create identity */
+.new-identity {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.new-identity form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.new-identity input,
+.new-identity select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #d8ddd8;
+  border-radius: 5px;
+}
+
+.new-identity button {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+/* identity card */
+.id-card {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.id-card h3 {
+  margin-top: 0;
+  text-transform: capitalize;
+}
+
+.id-card p {
+  margin-bottom: 15px;
+}
+
+.id-card input,
+.id-card select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #d8ddd8;
+  border-radius: 5px;
+}
+
+
+/* identity buttons */
+.id-card button {
+  padding: 8px 15px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+
+/* delete button */
+.id-card button:last-child {
+  background-color: #c76666;
+}
+
+.id-card button:last-child:hover {
+  background-color: #ad5555;
+}
+
+
+/* back button */
+.identities > button {
+  padding: 10px 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+
+/* view user identity page */
+.id-view {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.id-view h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* search form */
+.id-view form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.id-view label {
+  font-weight: bold;
+}
+
+.id-view input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #d8ddd8;
+  border-radius: 5px;
+}
+
+.id-view form button {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* identity results */
+.id-list {
+  margin-top: 20px;
+}
+
+/* back button */
+.id-view > button {
+  padding: 10px 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 15px;
+}
